@@ -1,11 +1,21 @@
-[gd_scene format=3 uid="uid://cc7jhatmmtd4p"]
+[gd_scene format=3 uid="uid://wugol2cnpu1g"]
+
+[ext_resource type="Texture2D" uid="uid://cdm2skl0da53o" path="res://icon.svg" id="1_wtcfe"]
 
 [ext_resource type="Texture2D" uid="uid://cdm2skl0da53o" path="res://icon.svg" id="1_wtcfe"]
 
 [node name="Node2D" type="Node2D" unique_id=2054086744]
 
-[node name="Node2D" type="Node2D" parent="." unique_id=1669449006]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2009315106]
 position = Vector2(-396, -294)
 texture = ExtResource("1_wtcfe")
+position = Vector2(-4, 2)
+
+[node name="Button" type="Button" parent="." unique_id=2095350007]
+offset_left = -378.97998
+offset_top = -257.7599
+offset_right = -370.97998
+offset_bottom = -249.75989
+text = "hola"
+icon = ExtResource("1_wtcfe")

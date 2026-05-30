@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://cc7jhatmmtd4p"]
+
+[ext_resource type="Texture2D" uid="uid://cdm2skl0da53o" path="res://icon.svg" id="1_j2wod"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v1qfn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_j2wod")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=2054086744]
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1669449006]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2009315106]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=574714785]
+position = Vector2(0, 124)
+sprite_frames = SubResource("SpriteFrames_v1qfn")
