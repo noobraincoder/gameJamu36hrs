@@ -8,4 +8,11 @@
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2009315106]
 position = Vector2(-4, 2)
-texture = ExtResource("1_wtcfe")
+
+[node name="Button" type="Button" parent="." unique_id=2095350007]
+offset_left = -378.97998
+offset_top = -257.7599
+offset_right = -370.97998
+offset_bottom = -249.75989
+text = "hola"
+icon = ExtResource("1_wtcfe")
