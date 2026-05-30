@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://wugol2cnpu1g"]
+[gd_scene format=3 uid="uid://cc7jhatmmtd4p"]
 
 [ext_resource type="Texture2D" uid="uid://cdm2skl0da53o" path="res://icon.svg" id="1_wtcfe"]
 
@@ -16,3 +16,6 @@ offset_right = -370.97998
 offset_bottom = -249.75989
 text = "hola"
 icon = ExtResource("1_wtcfe")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2145067431]
+position = Vector2(-194, -330)
